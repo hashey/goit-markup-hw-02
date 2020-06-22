@@ -85,7 +85,9 @@ footer {
 }
 
 /* Button */
-.button-link {
+.button-blue {
+  width: 200px;
+  height: 50px;
   background-color: var(--accent-text-color);
   color: var(--primary-white-color);
 }
@@ -117,4 +119,9 @@ footer {
 .team .link:hover,
 .team .link:focus {
   color: var(--accent-text-color);
+}
+
+/* Portfolio Page */
+.portfolio .category-mark {
+  color: var(--secondary-text-color);
 }
