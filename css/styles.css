@@ -1,0 +1,120 @@
+/* акцентирующий цвет текста #2196F3 */
+/* основной цвет текста #212121 */
+/* второстепенный цвет текста #757575 */
+/* основной цвет фона #FFFFFF */
+/* второстепенный цвет фона #F5F4FA */
+/* цвет фона футера #2F303A */
+
+:root {
+  --accent-text-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Logo */
+.logo-head {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.logo-head .blue,
+.logo-foot .blue {
+  color: var(--accent-text-color);
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+
+/* Header contacts */
+.header-contacts .link {
+  color: var(--secondary-text-color);
+}
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* Fooooter */
+footer {
+  background-color: var(--footer-bg-color);
+}
+.logo-foot {
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+.address {
+  color: var(--primary-white-color);
+}
+.footer-contacts .link {
+  color: var(--secondary-text-color);
+}
+.footer-section .title {
+  color: var(--primary-white-color);
+}
+
+.footer-section .link:hover,
+.footer-section .link:focus {
+  color: var(--accent-text-color);
+}
+.footer-section .link {
+  color: var(--primary-white-color);
+}
+
+/* Button */
+.button-link {
+  background-color: var(--accent-text-color);
+  color: var(--primary-white-color);
+}
+
+/* Main */
+/* Hero section*/
+.hero .title {
+  color: var(--primary-white-color);
+}
+
+/* Features section */
+.features .details {
+  color: var(--secondary-text-color);
+}
+
+/* Examples section */
+.examples .title {
+  color: var(--primary-white-color);
+}
+
+/* Team section */
+.team .rank {
+  color: var(--secondary-text-color);
+}
+
+.team .link {
+  color: var(--secondary-text-color);
+}
+.team .link:hover,
+.team .link:focus {
+  color: var(--accent-text-color);
+}
