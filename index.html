@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-markup-hw-02</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
+
     <header>
       <nav>
         <a href="./index.html" class="logo-head"
@@ -30,8 +35,10 @@
     </header>
 
     <!-- Основной контент страницы -->
+
     <main>
       <!-- Приветствие компании -->
+
       <section class="hero">
         <h1 class="title">
           Эффективные решения <br />
@@ -40,12 +47,17 @@
 
         <button class="button-blue">Заказать услугу</button>
       </section>
+
       <!-- какие-то приемущества -->
+
       <section class="features">
         <!-- Скрытый заголовок -->
+
         <h2>Мы лучший выбор</h2>
+
         <!-- Список преимуществ компании -->
-        <ul>
+
+        <ul class="list">
           <li>
             <h3 class="title">Внимание к деталям</h3>
             <p class="details">
@@ -76,30 +88,64 @@
           </li>
         </ul>
       </section>
+
+      <!-- Примеры работ -->
+
       <section class="examples">
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="section-title">Чем мы занимаемся</h2>
+
         <!-- Список ссылок(в картинках с описанием) на проекты  -->
+
         <ul class="list">
           <li>
-            <img src="./images/img1.jpg" alt="Ноутбук" />
-            <h3 class="title">Десктопные приложения</h3>
+            <a href="" class="link">
+              <img
+                src="./images/img1.jpg"
+                alt="Ноутбук"
+                width="370px"
+                height="294px"
+              />
+              <h3 class="title">Десктопные приложения</h3>
+            </a>
           </li>
           <li>
-            <img src="./images/img2.jpg" alt="Смартфон" />
-            <h3 class="title">Мобильные приложения</h3>
+            <a href="" class="link">
+              <img
+                src="./images/img2.jpg"
+                alt="Смартфон"
+                width="370px"
+                height="294px"
+              />
+              <h3 class="title">Мобильные приложения</h3>
+            </a>
           </li>
           <li>
-            <img src="./images/img3.jpg" alt="Монитор" />
-            <h3 class="title">Дизайнерские решения</h3>
+            <a href="" class="link">
+              <img
+                src="./images/img3.jpg"
+                alt="Монитор"
+                width="370px"
+                height="294px"
+              />
+              <h3 class="title">Дизайнерские решения</h3>
+            </a>
           </li>
         </ul>
       </section>
+
       <section class="team">
-        <h2>Наша команда</h2>
+        <h2 class="section-title">Наша команда</h2>
+
         <!-- Список лиц членов нашей команды -->
+
         <ul class="list">
           <li>
-            <img src="./images/face1.jpg" alt="Лицо человека1" />
+            <img
+              src="./images/face1.jpg"
+              alt="Лицо человека1"
+              width="270px"
+              height="260px"
+            />
             <h3 class="name">Николай Кучеренко</h3>
             <p class="rank">Product Designer</p>
             <ul class="list">
@@ -126,7 +172,12 @@
             </ul>
           </li>
           <li>
-            <img src="./images/face2.jpg" alt="Лицо человека2" />
+            <img
+              src="./images/face2.jpg"
+              alt="Лицо человека2"
+              width="270px"
+              height="260px"
+            />
             <h3 class="name">Ольга Иванова</h3>
             <p class="rank">Frontend Developer</p>
             <ul class="list">
@@ -153,7 +204,12 @@
             </ul>
           </li>
           <li>
-            <img src="./images/face3.jpg" alt="Лицо человека3" />
+            <img
+              src="./images/face3.jpg"
+              alt="Лицо человека3"
+              width="270px"
+              height="260px"
+            />
             <h3 class="name">Андрей Шевченко</h3>
             <p class="rank">Marketing</p>
             <ul class="list">
@@ -180,7 +236,12 @@
             </ul>
           </li>
           <li>
-            <img src="./images/face4.jpg" alt="Лицо человека4" />
+            <img
+              src="./images/face4.jpg"
+              alt="Лицо человека4"
+              width="270px"
+              height="260px"
+            />
             <h3 class="name">Иван Николаев</h3>
             <p class="rank">UI Designer</p>
             <ul class="list">
@@ -208,9 +269,11 @@
           </li>
         </ul>
       </section>
+
       <!-- Секция в которой студия хвастается :D -->
+
       <section class="partners">
-        <h2>Постоянные клиенты</h2>
+        <h2 class="section-title">Постоянные клиенты</h2>
         <ul class="list">
           <li>
             <a href=""> <img src="./icons/logo1.svg" alt="YA & CO" /></a>
@@ -253,7 +316,7 @@
         <a href="tel:+3800961111111" class="link">+3800961111111</a>
       </address>
       <!-- Зазывающий подписаться список ссылок -->
-      <section class="footer-section">
+      <section class="footer-social">
         <b class="title">присоединяйтесь</b>
         <ul class="list">
           <li>
@@ -273,7 +336,7 @@
         </ul>
       </section>
       <!-- Секция зазывающая и помогающая сразу подписаться на рассылку -->
-      <section class="footer-section">
+      <section class="footer-social">
         <b class="title">Подпишитесь на рассылку</b>
         <!-- <textarea name="e-mail" id="e-mail-area" cols="30" rows="1"></textarea> -->
         <!-- Будущая кнопка -->
